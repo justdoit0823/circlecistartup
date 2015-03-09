@@ -9,5 +9,5 @@ dependencies:
 test:
   override:
     - python ./web.py:
-      background: true
+        background: true
     - python ./test.py
