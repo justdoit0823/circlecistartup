@@ -8,5 +8,6 @@ dependencies:
 
 test:
   override:
-    - python ./web.py &
+    - python ./web.py:
+      background: true
     - python ./test.py
